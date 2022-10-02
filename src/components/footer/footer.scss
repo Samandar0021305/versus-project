@@ -1,0 +1,39 @@
+.footer{
+    
+background: #222222;
+padding: 20px 0;
+&__box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & h2{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 22px;
+        /* identical to box height, or 122% */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #C2C2C2;
+    }
+    & p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+
+        color: #999999;
+        margin-top: 5px;
+    }
+}
+}

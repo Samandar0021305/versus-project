@@ -1,0 +1,47 @@
+.header{
+    background: linear-gradient(360deg, #222222 0%, rgba(0, 0, 0, 0) 100%), url("../../assest/img/header-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    &__box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        & h2{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 53px;
+            text-align: center;
+            color: #FFFFFF;
+            width: 450px;
+        }
+        & button{
+            border: 1px solid #00D6B4;
+            border-radius: 3px;
+            background-color: transparent;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 19px;
+            /* identical to box height, or 146% */
+
+            text-align: center;
+            text-transform: uppercase;
+
+            color: #00D6B4;
+            margin-top: 30px;
+            padding: 16px 40px;
+            cursor: pointer;
+            transition: opacity 0.5s ease-in;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}
